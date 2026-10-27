@@ -1,0 +1,26 @@
+{
+	"name": "adf_csv_to_sql_departments",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adf_sql_server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "DeptID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "departments"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

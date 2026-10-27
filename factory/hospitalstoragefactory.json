@@ -1,0 +1,15 @@
+{
+	"name": "hospitalstoragefactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1bd82725-ca62-45ea-bbf2-4ec8a074a464",
+		"tenantId": "933911c1-0f4c-4487-9643-4e4d34926e09"
+	}
+}
